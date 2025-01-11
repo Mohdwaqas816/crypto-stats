@@ -3,7 +3,7 @@ const coinGeckoService = require('../services/v1/coingeckoService');
 const cryptoService = require('../services/v1/cryptoService');
 
 const fetchCryptoDataJob = () => {
-  cron.schedule('0 */2 * * *', async () => {
+  cron.schedule('*/2 * * * *', async () => {
     console.log('Fetching cryptocurrency data...');
     try {
       const coins = ['bitcoin', 'matic-network', 'ethereum'];
