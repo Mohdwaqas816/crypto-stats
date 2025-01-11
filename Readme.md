@@ -138,6 +138,8 @@ Check if the container is Running
 
 # API Reference
 
+Main URL: https://crypto-stats-8sfh.onrender.com
+
 ## 1. Crypto latest trend:
 
 #### health
